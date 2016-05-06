@@ -55,7 +55,7 @@
                     <navigationItem key="navigationItem" id="ya7-BB-UZT">
                         <barButtonItem key="rightBarButtonItem" title="Item" id="5jF-Ne-bnL">
                             <connections>
-                                <segue destination="paD-1H-VVT" kind="show" id="OmM-Ta-U7a"/>
+                                <segue destination="paD-1H-VVT" kind="show" id="3EV-fH-C3g"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -67,7 +67,6 @@
         <!--Item 2-->
         <scene sceneID="u3E-AB-s1B">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qqh-2E-2sW" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="DMG-f6-TWz" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="wGI-wM-LsC"/>
@@ -81,6 +80,7 @@
                     <tabBarItem key="tabBarItem" title="Item 2" id="m9I-OA-Mqg"/>
                     <navigationItem key="navigationItem" id="q85-AN-2C9"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qqh-2E-2sW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="77" y="1384"/>
         </scene>
@@ -124,9 +124,6 @@
                                             <constraint firstAttribute="width" constant="46" id="vTV-0A-QRv"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <connections>
-                                            <action selector="scalBtn:" destination="paD-1H-VVT" eventType="touchUpInside" id="4dV-Ph-Lqe"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.68510466814041138" green="0.77104634046554565" blue="0.08120361715555191" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -144,9 +141,6 @@
                             <constraint firstItem="TI1-Ne-xBI" firstAttribute="top" secondItem="pNJ-I8-kRt" secondAttribute="bottom" id="cD9-4G-RyW"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="videoView" destination="TI1-Ne-xBI" id="mFk-KA-9nC"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QJb-XN-mje" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
